@@ -12,9 +12,11 @@ type
     PilihTabel1: TMenuItem;
     N1TabelOrtu1: TMenuItem;
     N2TabelSiswa1: TMenuItem;
+    Opsi1: TMenuItem;
     Keluar1: TMenuItem;
+    N3TabelKelas1: TMenuItem;
     procedure N1TabelOrtu1Click(Sender: TObject);
-    procedure Keluar1Click(Sender: TObject);
+    procedure N3TabelKelas1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -26,7 +28,7 @@ var
 
 implementation
 
-uses Ortu;
+uses Ortu, Siswa;
 
 {$R *.dfm}
 
@@ -35,9 +37,9 @@ begin
 form2.Showmodal();
 end;
 
-procedure TForm1.Keluar1Click(Sender: TObject);
+procedure TForm1.N3TabelKelas1Click(Sender: TObject);
 begin
-Exit;
+Form3.ShowModal();
 end;
 
 end.

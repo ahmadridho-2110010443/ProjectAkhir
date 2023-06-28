@@ -256,6 +256,7 @@ object Form2: TForm2
     Height = 25
     Caption = 'Laporan'
     TabOrder = 13
+    OnClick = btn6Click
   end
   object Edt4: TEdit
     Left = 184

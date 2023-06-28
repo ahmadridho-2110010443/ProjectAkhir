@@ -26,10 +26,16 @@ object Form1: TForm1
       object N2TabelSiswa1: TMenuItem
         Caption = '2.Tabel Siswa'
       end
+      object N3TabelKelas1: TMenuItem
+        Caption = '3.Tabel Kelas'
+        OnClick = N3TabelKelas1Click
+      end
     end
-    object Keluar1: TMenuItem
-      Caption = 'Keluar'
-      OnClick = Keluar1Click
+    object Opsi1: TMenuItem
+      Caption = 'Opsi'
+      object Keluar1: TMenuItem
+        Caption = 'Keluar'
+      end
     end
   end
 end
