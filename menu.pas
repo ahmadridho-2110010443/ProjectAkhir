@@ -12,7 +12,9 @@ type
     PilihTabel1: TMenuItem;
     N1TabelOrtu1: TMenuItem;
     N2TabelSiswa1: TMenuItem;
+    Keluar1: TMenuItem;
     procedure N1TabelOrtu1Click(Sender: TObject);
+    procedure Keluar1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -31,6 +33,11 @@ uses Ortu;
 procedure TForm1.N1TabelOrtu1Click(Sender: TObject);
 begin
 form2.Showmodal();
+end;
+
+procedure TForm1.Keluar1Click(Sender: TObject);
+begin
+Exit;
 end;
 
 end.

@@ -27,5 +27,9 @@ object Form1: TForm1
         Caption = '2.Tabel Siswa'
       end
     end
+    object Keluar1: TMenuItem
+      Caption = 'Keluar'
+      OnClick = Keluar1Click
+    end
   end
 end
